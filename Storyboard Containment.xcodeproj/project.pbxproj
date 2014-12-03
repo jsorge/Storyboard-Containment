@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		931E526B1A2F66D1009E40AC /* TopLayoutHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 931E526A1A2F66D1009E40AC /* TopLayoutHelper.m */; };
 		938BB9F01A2D7F8A0061B45E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 938BB9EF1A2D7F8A0061B45E /* main.m */; };
 		938BB9F31A2D7F8A0061B45E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 938BB9F21A2D7F8A0061B45E /* AppDelegate.m */; };
 		938BB9F61A2D7F8A0061B45E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938BB9F51A2D7F8A0061B45E /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		931E52691A2F66D1009E40AC /* TopLayoutHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopLayoutHelper.h; sourceTree = "<group>"; };
+		931E526A1A2F66D1009E40AC /* TopLayoutHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopLayoutHelper.m; sourceTree = "<group>"; };
 		938BB9EA1A2D7F8A0061B45E /* Storyboard Containment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storyboard Containment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		938BB9EE1A2D7F8A0061B45E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		938BB9EF1A2D7F8A0061B45E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				938BBA161A2D84420061B45E /* UIColor+Extension.h */,
 				938BBA171A2D84420061B45E /* UIColor+Extension.m */,
 				938BBA191A2D8F430061B45E /* ScrollViewFinding.h */,
+				931E52691A2F66D1009E40AC /* TopLayoutHelper.h */,
+				931E526A1A2F66D1009E40AC /* TopLayoutHelper.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -232,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				938BB9F61A2D7F8A0061B45E /* ViewController.m in Sources */,
+				931E526B1A2F66D1009E40AC /* TopLayoutHelper.m in Sources */,
 				938BB9F31A2D7F8A0061B45E /* AppDelegate.m in Sources */,
 				938BBA181A2D84420061B45E /* UIColor+Extension.m in Sources */,
 				938BB9F01A2D7F8A0061B45E /* main.m in Sources */,
@@ -426,6 +432,7 @@
 				938BBA0F1A2D7F8A0061B45E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		938BBA101A2D7F8A0061B45E /* Build configuration list for PBXNativeTarget "Storyboard ContainmentTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +441,7 @@
 				938BBA121A2D7F8A0061B45E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

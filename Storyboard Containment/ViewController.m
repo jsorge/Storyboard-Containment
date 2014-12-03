@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "TableViewController.h"
 #import "ScrollViewFinding.h"
+#import "TopLayoutHelper.h"
 
 @interface ViewController ()
 @property (nonatomic, weak) IBOutlet UIView *blurView;
@@ -41,18 +42,5 @@
 {
     CGFloat newLayoutGuide = self.blurView.frame.size.height;
     return [[TopLayoutHelper alloc] initWithLength:newLayoutGuide];
-}
-@end
-
-
-
-@implementation TopLayoutHelper
-- (instancetype)initWithLength:(CGFloat)length
-{
-    self = [super init];
-    if (self) {
-        _length = length;
-    }
-    return self;
 }
 @end

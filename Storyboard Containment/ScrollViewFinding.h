@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-@import UIKit;
+@class UIScrollView;
 
 @protocol ScrollViewFinding <NSObject>
-@property (nonatomic, strong) UIScrollView *rootScrollView;
+@property (nonatomic, readonly) UIScrollView *rootScrollView;
 @end

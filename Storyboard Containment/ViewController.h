@@ -10,13 +10,3 @@
 
 @interface ViewController : UIViewController
 @end
-
-
-
-
-
-@interface TopLayoutHelper : NSObject <UILayoutSupport>
-@property (nonatomic, readonly)CGFloat length;
-
-- (instancetype)initWithLength:(CGFloat)length;
-@end
